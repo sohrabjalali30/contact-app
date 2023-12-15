@@ -1,0 +1,24 @@
+body{
+    background-color: #282e36;
+    
+    font-family: 'mitra' 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+input[type='text']::-webkit-input-placeholder,
+input[type='email']::-webkit-input-placeholder,
+input[type='number']::-webkit-input-placeholder{
+    color: #F8F8F2;
+}
+input[type='text'],
+input[type='email'],
+input[type='number']{
+    color:#F8F8F2 !important;
+    background-color: #44475A !important;
+    border-color: #BD93F9 !important;
+}
+.form-control{
+    background-color: #44475A !important;
+    color: #F8F8F2 !important;
+    border-color: #BD93F9 !important;
+}
